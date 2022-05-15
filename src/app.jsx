@@ -8,7 +8,7 @@ function App() {
       <button onClick={() => setCount((prevCount) => prevCount - 1)}>
         Decrement
       </button>
-      <h1>{count}</h1>
+      <span>{count}</span>
       <button onClick={() => setCount((prevCount) => prevCount + 1)}>
         increment
       </button>
